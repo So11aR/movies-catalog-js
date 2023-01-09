@@ -85,7 +85,6 @@ async function openFilmDetails(e) {
 
   // Получаем данные фильма
   const data = await fetchData(url + id, options);
-  console.log(data);
 
   // Отобразить детали фильма на странице
   renderFilmData(data);
